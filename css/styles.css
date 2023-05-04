@@ -1,0 +1,150 @@
+body {
+  background-color: #d3d3d3;
+  font-size: 1.4rem;
+}
+
+.container {
+  margin: 2rem 5rem;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.header {
+  width: 98%;
+  margin: 3rem auto;
+  border-bottom: 2px solid #8b0000;
+}
+
+.logo-container {
+  border-bottom: 2px solid #8b0000;
+}
+
+.header-logo {
+  display: block;
+  width: 20%;
+  margin: 2rem auto;
+}
+
+.title-container {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.title {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.subtitle {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+
+.presentation {
+  background-color: #d3d3d3;
+  margin: 3rem 8rem;
+  padding: 3rem 1rem;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.presentation-logo {
+  width: 8%;
+  display: block;
+  margin: 2rem auto;
+}
+
+.show-presentation {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 1.5rem;
+}
+
+.show-name {
+  font-weight: bold;
+}
+
+.show-diffusion {
+  font-size: 1.2rem;
+  font-style: italic;
+  padding-bottom: 1.5rem;
+}
+
+.section-subtitle {
+  color: #8b0000;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.synopsis-text {
+  margin-top: 1.5rem;
+}
+
+.synopsis-text p {
+  margin: 1rem 0;
+}
+
+.actors-links {
+  margin: 2rem auto;
+}
+
+.actor-link {
+  display: block;
+  background-color: #d3d3d3;
+  color: #8b0000;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem 8rem;
+  padding: 1rem 0;
+  border-radius: 2rem;
+}
+
+.actor-link:hover {
+  background-color: white;
+  box-shadow: #d3d3d3 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+/* .picture-container {
+
+} */
+
+.picture-container {
+  border: 2px solid #d3d3d3;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  width: 15%;
+}
+
+.show-picture {
+  width: 80%;
+  display: block;
+  margin: 2rem auto;
+}
+
+.image-description {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.footer {
+  background-color: #d3d3d3;
+  margin: 2rem 2rem;
+}
+
+.footer-text {
+  padding: 2rem 0 5rem 0;
+  text-align: center;
+}
